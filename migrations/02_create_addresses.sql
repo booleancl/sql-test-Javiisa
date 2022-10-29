@@ -3,7 +3,7 @@
 
 DROP TABLE IF EXISTS addresses;
 CREATE TABLE addresses(
-  id INT,
+  id INTEGER NOT NULL,
   customer_id INT,
   detail VARCHAR(80),
   created_at TIMESTAMP,
